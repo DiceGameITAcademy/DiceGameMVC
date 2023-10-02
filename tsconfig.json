@@ -1,0 +1,94 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "types": ["node", "sequelize", "jest"],
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "rootDir": ".",
+    "strict": true,
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+  "paths": {
+    "@server/*": ["server/src/*"]
+  },  
+  },
+  "include": [
+    "src/**/**.ts",
+    "tests/**/**.ts",
+    "playground/**/**.ts",
+    "server/src/**/*.ts",
+    "DiceG/server/src/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
+
+
+
+
+
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "target": "es6",
+//     "noImplicitAny": true,
+//     "moduleResolution": "node",
+//     "sourceMap": false,
+//     "rootDir": ".",
+//     "strict": true,
+//     "noEmit": false,
+//     "resolveJsonModule": true,
+//     "noUnusedLocals": true,
+//     "outDir": "./dist",
+//     "experimentalDecorators": true,
+//     "baseUrl": "./",
+//   "paths": {
+//     "@server/*": ["server/src/*"]
+//   },
+    
+//   },
+//   "include": [
+//     "src/**/**.ts",
+//     "tests/**/**.ts",
+//     "playground/**/**.ts",
+//     "server/src/**/*.ts",
+//     "DiceG/server/src/**/*.ts"
+
+//   ],
+//   "exclude": ["node_modules"]
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "target": "es6",
+//     "noImplicitAny": true,
+//     "moduleResolution": "node",
+//     "sourceMap": false,
+//     "rootDir": ".",
+//     "strict": true,
+//     "noEmit": false,
+//     "resolveJsonModule": true,
+//     "noUnusedLocals": true,
+//     "outDir": "./dist"
+//   },
+//   "include": [
+//     "src/**/**.ts",
+//     "tests/**/**.ts",
+//     "playground/**/**.ts",
+//     "server/src/**/*.ts",
+//     "DiceG/server/src/**/*.ts"
+
+//   ],
+//   "exclude": ["node_modules"]
+// }
+
